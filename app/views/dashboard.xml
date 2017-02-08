@@ -1,0 +1,8 @@
+<Alloy>
+    <Window backgroundColor="#193441" class="container" left="0.00%" top="6.67%">
+        <View id="View_1">
+            <Button id="Button_1">NEXT</Button>
+            <Label id="Label_1">What would you like to name your project?</Label>/&gt;
+        </View>
+    </Window>
+</Alloy>

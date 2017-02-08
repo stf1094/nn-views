@@ -1,0 +1,74 @@
+".container": {
+},
+"#Window_1": {
+	"title": "Window",
+	"backgroundColor": "#193341"
+},
+"#View_1": {
+	"height": "72.53%",
+	"left": "5.07%",
+	"top": "8.19%",
+	"width": "90.00%"
+},
+"#ImageView_1": {
+	"image": "/images/iphone/project-shuriken.png"
+},
+"#Label_1": {
+	"height": "8.32%",
+	"left": "10%",
+	"top": "13.41%",
+	"width": "81.48%",
+},
+"#Label_2": {
+	"text": "Label",
+	"left": "9.78%",
+	"top": "23.73%",
+	"height": "7.47%",
+	"width": "76.74%",
+	"font": {fontSize:'14',fontFamily:'',fontStyle:'',fontWeight:''},
+},
+"#TextField_1": {
+	"width": "80%",
+	"height": "88px",
+	"borderRadius": "10",
+	"borderColor": "#E5E5E5",
+	"borderWidth": "1",
+	"left": "9.93%",
+	"top": "33.26%",
+	"backgroundColor": "#ececec"
+},
+"#Label_3": {
+	"text": "Label",
+	"left": "10.07%",
+	"top": "44.90%",
+	"class": "text1",
+	"font": {fontSize:'14',fontFamily:'',fontStyle:'',fontWeight:''},
+	"height": "7.35%",
+	"width": "76.59%"
+},
+"#Button_1": {
+	"height": "10.02%",
+	"left": "9.93%",
+	"top": "54.10%",
+	"width": "80%",
+	"backgroundColor": "#ffffff",
+	"borderColor": "#193341",
+	"borderRadius": "10",
+	"borderWidth": "3",
+	"color": "#193341",
+	"font": {fontSize:'16',fontFamily:'',fontStyle:'',fontWeight:''}
+},
+"#Button_2": {
+	"title": "Button",
+	"left": "9.93%",
+	"top": "65.96%"
+},
+"#Button_3": {
+	"title": "Button",
+	"left": "9.93%",
+	"top": "82.93%",
+	"borderRadius": "10",
+	"color": "#ffffff",
+	"height": "88px",
+	"font": {fontSize:'20',fontFamily:'',fontStyle:'',fontWeight:''}
+}

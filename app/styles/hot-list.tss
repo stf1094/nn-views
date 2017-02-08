@@ -1,0 +1,12 @@
+".container": {
+},
+"#Window_1": {
+	"title": "Window"
+},
+"#ImageView_1": {
+	"left": "0.00%",
+	"top": "0.00%",
+	"image": "/iphone/ui-hotlist-cover.png",
+	"height": "23.25%",
+	"width": "100%",
+}

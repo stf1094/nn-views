@@ -1,0 +1,17 @@
+".container": {
+},
+"#Window_1": {
+	"title": "Window"
+},
+"#ImageView_1": {
+	"left": "0.00%",
+	"top": "0.00%",
+	"height": "23.25%",
+	"width": "100%"
+},
+"#ListView_1": {
+	"height": "76.95%",
+	"left": "0.00%",
+	"top": "23.09%",
+	"width": "100.00%",
+}

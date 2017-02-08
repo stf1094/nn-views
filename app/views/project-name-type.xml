@@ -1,0 +1,14 @@
+<Alloy>
+    <Window id="Window_1">
+        <View class="form1" id="View_1">
+            <Label class="header" id="Label_1">Create a Project</Label>/&gt;
+        <Label class="text1" id="Label_2">What would you like to name your project?</Label>/&gt;
+        <TextField id="TextField_1"/>
+            <Label class="text1" id="Label_3">Is it a personal or professional project?</Label>/&gt;
+        <Button class="button2" id="Button_1">Personal</Button>/&gt;
+        <Button class="button2" id="Button_2">Professional</Button>/&gt;
+        <Button class="button1" id="Button_3">NEXT</Button>/&gt;
+        </View>
+        <ImageView class="topCircle" id="ImageView_1"/>
+    </Window>
+</Alloy>

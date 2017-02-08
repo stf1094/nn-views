@@ -1,0 +1,47 @@
+".container": {
+},
+"#Window_1": {
+	"title": "Window",
+	"backgroundColor": "#193341"
+},
+"#View_1": {
+	"height": "89.00%",
+	"left": "5.07%",
+	"top": "8.43%",
+	"width": "90.00%"
+},
+"#ImageView_1": {
+	"left": "40%"
+},
+"#Label_1": {
+	"height": "9.55%",
+	"left": "9.19%",
+	"top": "9.74%",
+	"width": "81.63%"
+},
+"#Label_2": {
+	"text": "Label",
+	"left": "9.19%",
+	"top": "18.53%",
+	"height": "8.30%",
+	"width": "75.85%",
+	"color": "#444444"
+},
+"#Button_1": {
+	"left": "9.19%",
+	"top": "86.58%",
+	"width": "38%",
+	"height": "8%",
+},
+"#Button_2": {
+	"title": "Button",
+	"left": "52.89%",
+	"top": "86.55%",
+	"font": {fontSize:'20',fontFamily:'',fontStyle:'normal',fontWeight:'bold'},
+	"height": "8%",
+},
+"#Label_3": {
+	"left": "9.19%",
+	"top": "11.11%",
+	"font": {fontSize:'50dp',fontFamily:'',fontStyle:'',fontWeight:''}
+}

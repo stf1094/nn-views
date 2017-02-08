@@ -13,11 +13,6 @@
 	"width": "90%",
 	"right": "5%"
 },
-"#Label_2": {
-	"left": "9.90%",
-	"top": "16.93%",
-	"font": { fontSize: '10%', fontFamily: '', fontStyle: '', fontWeight: ''},
-},
 "#endDate": {
 	"top": "66.87%",
 	"left": "21.42%",
@@ -81,7 +76,7 @@
 	"top": "27.32%",
 	"width": "80.80%",
 	"font": {fontSize:'3.5%',fontFamily:'',fontStyle:'',fontWeight:''},
-	"color": "#444444",
+	"color": "#444444"
 },
 "#TextField_2": {
 	"width": "27.92%",
@@ -100,4 +95,10 @@
 	"borderWidth": "0",
 	"left": "60.86%",
 	"top": "65.39%"
+},
+"#ImageView_1": {
+	"left": "10%",
+	"top": "17.43%",
+	"height": "10%",
+	"width": "50%",
 }

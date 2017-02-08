@@ -1,26 +1,12 @@
 <Alloy>
     <Window id="Window_1">
         <ImageView id="ImageView_1" image="/images/iphone/ui-projects-cover.png"/>
-        <ListView id="ListView_1">
-            <ListSection headerTitle="Projects">
-                <ListItem color="#f7941d" title="Item_1">ITEM 1</ListItem>
-                <ListItem title="Item_2">ITEM 2</ListItem>
-                <ListItem title="Item_2">ITEM 2</ListItem>
-                <ListItem title="Item_2">ITEM 2</ListItem>
-                <ListItem title="Item_2">ITEM 2</ListItem>
-                <ListItem title="Item_2">ITEM 2</ListItem>
-                <ListItem title="Item_2">ITEM 2</ListItem>
-                <ListItem title="Item_2">ITEM 2</ListItem>
-                <ListItem title="Item_2">ITEM 2</ListItem>
-                <ListItem title="Item_2">ITEM 2</ListItem>
-                <ListItem title="Item_2">ITEM 2</ListItem>
-                <ListItem title="Item_2">ITEM 2</ListItem>
-                <ListItem title="Item_2">ITEM 2</ListItem>
-                <ListItem title="Item_2">ITEM 2</ListItem>
-                <ListItem title="Item_2">ITEM 2</ListItem>
-                <ListItem title="Item_2">ITEM 2</ListItem>
-                <ListItem title="Item_2">ITEM 2</ListItem>
-            </ListSection>
-        </ListView>
+        <View id="View_1">
+            <Button id="Button_1">Create a Project</Button>/&amp;amp;gt;
+        <ImageView id="ImageView_2" image="images/iphone/projecttemplate.png"/>
+            <ImageView id="ImageView_3" image="images/iphone/projecttemplate.png"/>
+            <Label id="Label_1">Project Name</Label>/&gt;
+            <Label id="Label_2">Project Name</Label>/&gt;
+        </View>
     </Window>
 </Alloy>

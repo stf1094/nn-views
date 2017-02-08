@@ -1,5 +1,5 @@
 <Alloy>
 	 <NavigationWindow platform="ios" >
-        <Require src="create-goal"/>
+        <Require src="project-dashboard"/>
     </NavigationWindow>
 </Alloy>

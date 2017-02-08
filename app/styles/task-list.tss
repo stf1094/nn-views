@@ -52,7 +52,7 @@
 	"borderWidth": "1",
 	"left": "3.73%",
 	"top": "3.21%",
-	"backgroundColor": "#ececec",
+	"backgroundColor": "#ececec"
 },
 "#ListView_1": {
 	"height": "82.95%",
@@ -63,8 +63,8 @@
 "#Label_1": {
 	"color": "#ffffff",
 	"font": {fontSize:'30dp',fontFamily:'',fontStyle:'',fontWeight:''},
-	"height": "62.10%",
-	"left": "26.11%",
-	"top": "29.30%",
+	"height": "100.00%",
+	"left": "26.27%",
+	"top": "0.00%",
 	"width": "55.87%",
 }

@@ -1,7 +1,6 @@
 <Alloy>
     <Window id="Window_1">
         <View class="form1" id="View_1">
-            <Label class="header" id="Label_2">Set a Goal</Label>
             <Label id="startDate">Start Date</Label>
             <Label id="endDate">End Date</Label>
             <TextField id="TextField_1"/>
@@ -11,6 +10,7 @@
             <Label id="Label_1">What is your goal for this project?</Label>
             <TextField id="TextField_2"/>
             <TextField id="TextField_3"/>
+            <ImageView id="ImageView_1" image="images/iphone/setgoal.png"/>
         </View>
         <ImageView id="ImageView_3" image="/images/iphone/project-shuriken.png"/>
     </Window>

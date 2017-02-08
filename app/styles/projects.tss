@@ -13,5 +13,44 @@
 	"height": "76.95%",
 	"left": "0.00%",
 	"top": "23.09%",
+	"width": "100.00%"
+},
+"#View_1": {
+	"height": "76.95%",
+	"left": "0.00%",
+	"top": "23.05%",
 	"width": "100.00%",
+},
+"#Button_1": {
+	"left": "4.84%",
+	"top": "1.22%"
+},
+"#ImageView_2": {
+	"left": "6.67%",
+	"top": "15%",
+	"width": "40%",
+	"height": "31.25%"
+},
+"#ImageView_3": {
+	"top": "15%",
+	"left": "53.20%",
+	"width": "40%",
+	"height": "31.25%"
+},
+"#Label_1": {
+	"color": "#ffffff",
+	"font": {fontSize:'14',fontFamily:'',fontStyle:'',fontWeight:''},
+	"height": "8.04%",
+	"left": "8.80%",
+	"top": "38.00%",
+	"width": "36.27%",
+},
+"#Label_2": {
+	"text": "Label",
+	"left": "55.60%",
+	"top": "38.00%",
+	"color": "#ffffff",
+	"font": {fontSize:'14',fontFamily:'',fontStyle:'',fontWeight:''},
+	"height": "8.04%",
+	"width": "35.20%",
 }

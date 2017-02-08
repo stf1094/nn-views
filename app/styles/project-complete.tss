@@ -5,43 +5,42 @@
 	"backgroundColor": "#193341"
 },
 "#View_1": {
-	"height": "55.02%",
-	"left": "5.07%",
-	"top": "8.43%",
+	"height": "52.37%",
+	"left": "5.33%",
+	"top": "8.27%",
 	"width": "90.00%"
 },
 "#ImageView_1": {
 },
-"#Label_1": {
-	"left": "9.19%",
-	"top": "15.94%",
-	"font": {fontSize:'10%',fontFamily:'',fontStyle:'',fontWeight:''},
-	"height": "18.86%",
-	"width": "85.48%",
-},
 "#Label_2": {
 	"text": "Label",
-	"left": "8.90%",
-	"top": "33.81%",
+	"left": "9.05%",
+	"top": "34.66%",
 	"color": "#444444",
-	"font": {fontSize:'5%',fontFamily:'',fontStyle:'',fontWeight:''},
-	"height": "18.54%",
-	"width": "93.47%"
+	"font": {fontSize:'3.5%',fontFamily:'',fontStyle:'',fontWeight:''},
+	"height": "18.40%",
+	"width": "81.16%",
 },
 "#Button_1": {
 	"height": "12%",
-	"left": "9.19%",
-	"top": "64.77%",
+	"left": "8.75%",
+	"top": "59.66%",
 	"width": "81.48%",
-	"font": {fontSize:'5%',fontFamily:'',fontStyle:'',fontWeight:''}
+	"font": {fontSize:'20',fontFamily:'',fontStyle:'',fontWeight:''}
 },
 "#Button_2": {
 	"title": "Button",
-	"left": "9.19%",
-	"top": "80.85%",
+	"left": "8.90%",
+	"top": "75.00%",
 	"borderRadius": "10",
 	"color": "#ffffff",
 	"height": "11.99%",
 	"width": "81.33%",
-	"font": {fontSize:'5%',fontFamily:'',fontStyle:'',fontWeight:'bold'}
+	"font": {fontSize:'20',fontFamily:'',fontStyle:'',fontWeight:'bold'}
+},
+"#ImageView_2": {
+	"left": "10.37%",
+	"top": "23.39%",
+	"height": "11.5%",
+	"width": "80%"
 }

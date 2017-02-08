@@ -2,7 +2,127 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 This is your global styles file. Selectors and rules you define
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -10,7 +130,127 @@ here will be applied throughout your app. However, these rules
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 have the lowest priority of any style settings.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -18,7 +258,127 @@ For more information, see the "Style Priorities" section of
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 http://docs.appcelerator.com/platform/latest/#!/guide/Alloy_Styles_and_Themes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -26,7 +386,127 @@ For example, the following would apply to all labels, windows,
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 and text fields (depending on platform) in your app unless you
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -34,7 +514,127 @@ overrode the settings with other TSS, XML, or JS settings:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 'Label[platform=android,windows]': {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -42,7 +642,127 @@ overrode the settings with other TSS, XML, or JS settings:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -50,11 +770,191 @@ overrode the settings with other TSS, XML, or JS settings:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	backgroundColor: '#fff' // white background instead of default transparent or black
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -62,11 +962,191 @@ overrode the settings with other TSS, XML, or JS settings:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	height: Ti.UI.SIZE
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -79,28 +1159,28 @@ overrode the settings with other TSS, XML, or JS settings:
 "#View_1": {
 	"backgroundColor": "#ffffff",
 	"center": "100%",
-	"height": "85%",
-	"left": "5.20%",
-	"top": "8.51%",
-	"width": "90%",
-	"borderRadius": "20"
+	"height": "45.70%",
+	"left": "4.93%",
+	"top": "17.03%",
+	"width": "90.00%",
+	"borderRadius": "20",
 },
 "#Button_1": {
 	"title": "Button",
-	"left": "30%",
-	"top": "65%",
-	"backgroundColor": "#f7941d",
+	"left": "4.80%",
+	"top": "6.83%",
+	"backgroundColor": "#ffffff",
 	"borderRadius": "10",
-	"color": "#ffffff",
+	"color": "#193341",
 	"font": {fontSize:'20',fontFamily:'sans-serif',fontStyle:'normal',fontWeight:'bold'},
-	"height": "10.11%",
+	"height": "8%",
 	"layout": "absolute",
-	"width": "90.81%"
+	"width": "43%",
 },
 "#Label_1": {
 	"text": "Label",
-	"left": "17%",
-	"top": "18%",
+	"left": "34%",
+	"top": "57%",
 	"height": "19.00%",
 	"width": "93.19%",
 	"font": {fontSize:'30',fontFamily:'san-serif',fontStyle:'normal',fontWeight:'normal'}
@@ -108,12 +1188,12 @@ overrode the settings with other TSS, XML, or JS settings:
 ".header[platform=ios]": {
 	"left": "10%",
 	"top": "16.5%",
-	"color": "black",
+	"color": "black"
 },
 ".header[platform=android]": {
 	"left": "10%",
 	"top": "16.5%",
-	"color": "black",
+	"color": "black"
 },
 ".button1": {
 	"left": "9.78%",
@@ -135,11 +1215,11 @@ overrode the settings with other TSS, XML, or JS settings:
 	"width": "90%"
 },
 ".button2": {
-	"height": "10.02%",
+	"height": "8%",
 	"left": "10%",
 	"selectedColor": "#193341",
-	"width": "80%",
-	"font": {fontSize:'16',fontFamily:'sans-serif',fontStyle:'normal',fontWeight:'bold'},
+	"width": "43%",
+	"font": {fontSize:'20',fontFamily:'sans-serif',fontStyle:'normal',fontWeight:'bold'},
 	"backgroundColor": "#ffffff",
 	"borderColor": "#193341",
 	"borderRadius": "10",
@@ -148,8 +1228,35 @@ overrode the settings with other TSS, XML, or JS settings:
 },
 ".button-half1": {
 	"height": "10.02%",
-	"width": "38%",
+	"width": "40%",
 	"backgroundColor": "#f7941d",
 	"borderRadius": "10",
 	"color": "#ffffff"
+},
+"#View_2": {
+	"backgroundColor": "#ffffff",
+	"borderRadius": "10",
+	"height": "33.33%",
+	"left": "4.80%",
+	"top": "64.50%",
+	"width": "89.87%",
+},
+"#ImageView_1": {
+	"height": "17%",
+	"left": "0.00%",
+	"top": "0.00%",
+	"width": "100%",
+},
+"#Window_1": {
+	"backgroundColor": "#ecf0f0",
+},
+"#ImageView_2": {
+	"height": "23%",
+	"left": "0.00%",
+	"top": "0%",
+	"width": "100%",
+},
+"#Button_2": {
+	"left": "51.73%",
+	"top": "6.83%",
 }

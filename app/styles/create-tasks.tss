@@ -8,12 +8,16 @@
 	"height": "59%",
 	"left": "5.07%",
 	"top": "8.19%",
-	"width": "90.00%",
+	"width": "90.00%"
 },
 "#ImageView_1": {
 	"image": "/iphone/project-shuriken.png",
 	"layout": "absolute",
-	"visible": "true"
+	"visible": "true",
+	"height": "12%",
+	"left": "40%",
+	"top": "2.25%",
+	"width": "21%",
 },
 "#ImageView_3": {
 	"left": "11.51%",
@@ -51,12 +55,6 @@
 	"color": "#444444",
 	"backgroundColor": "#ececec"
 },
-"#Button_1": {
-	"left": "53.28%",
-	"top": "81.26%",
-	"width": "38%",
-	"font": {fontSize:'20',fontFamily:'',fontStyle:'',fontWeight:''}
-},
 "#Label_2": {
 	"text": "Label",
 	"left": "9.93%",
@@ -65,15 +63,27 @@
 	"highlightedColor": "#000000",
 	"color": "#444444"
 },
-"#Button_2": {
-	"title": "Button",
-	"left": "10%",
-	"top": "81.39%",
-	"font": {fontSize:'20',fontFamily:'sans-serif',fontStyle:'normal',fontWeight:'bold'}
-},
 "#ImageView_2": {
 	"left": "10%",
 	"top": "17.91%",
 	"height": "11%",
-	"width": "50%",
+	"width": "50%"
+},
+"#Button_3": {
+	"title": "Button",
+	"left": "9.78%",
+	"top": "81.47%",
+	"font": { fontSize: '20', fontFamily: '', fontStyle: '', fontWeight: 'bold'},
+	"width": "39%",
+},
+"#Button_1": {
+	"backgroundColor": "#f7941d",
+	"borderColor": "#000000",
+	"borderWidth": "0",
+	"color": "#ffffff",
+	"font": { fontSize: '20', fontFamily: '', fontStyle: '', fontWeight: ''},
+	"height": "10.02%",
+	"left": "52.15%",
+	"top": "81.34%",
+	"width": "39%",
 }

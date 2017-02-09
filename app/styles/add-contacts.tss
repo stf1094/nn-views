@@ -11,7 +11,10 @@
 	"width": "90.00%"
 },
 "#ImageView_1": {
-	"left": "40%"
+	"left": "40%",
+	"height": "12%",
+	"top": "2.25%",
+	"width": "21%"
 },
 "#Label_2": {
 	"text": "Label",
@@ -24,16 +27,23 @@
 "#Button_1": {
 	"left": "9.19%",
 	"top": "86.58%",
-	"width": "38%",
+	"width": "39%",
 	"height": "8%",
 	"font": {fontSize:'20',fontFamily:'',fontStyle:'',fontWeight:'bold'},
+	"backgroundColor": "#f7941d",
+	"color": "#ffffff",
+	"borderWidth": "0",
 },
 "#Button_2": {
 	"title": "Button",
-	"left": "52.89%",
+	"left": "51.85%",
 	"top": "86.55%",
 	"font": {fontSize:'20',fontFamily:'',fontStyle:'normal',fontWeight:'bold'},
-	"height": "8%"
+	"height": "8%",
+	"backgroundColor": "#f7941d",
+	"borderWidth": "0",
+	"color": "#ffffff",
+	"width": "39%",
 },
 "#Label_3": {
 	"left": "9.19%",

@@ -11,11 +11,13 @@
         <TextField id="TextField_1"/>
             <TextField id="TextField_2"/>
             /&gt;
-        <Button class="button-half1" id="Button_1">NEXT</Button>/&gt;
+        /&gt;
             /&gt;
         <Label id="Label_2">What are your tasks for this project?</Label>/&gt;
-        <Button class="button-half1" id="Button_2">BACK</Button>/&gt;
+        /&gt;
         <ImageView id="ImageView_2" image="/images/iphone/addtasks.png"/>
+            <Button class="button-half1" id="Button_3">BACK</Button>/>
+            <Button class="button-half1" id="Button_1">NEXT</Button>/>
         </View>
         <ImageView class="topCircle" id="ImageView_1" image="/images/iphone/project-shuriken.png"/>
     </Window>

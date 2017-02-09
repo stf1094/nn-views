@@ -6,7 +6,7 @@
         <View id="View_2">
             <ImageView id="ImageView_2" image="/images/iphone/goals-bar.png"/>
         </View>
-        <Button class="button2" id="Button_1">Contacts</Button>
-        <Button class="button2" id="Button_2">Hot List</Button>
+        <Button id="Button_1">Contacts</Button>
+        <Button id="Button_2">Hot List</Button>
     </Window>
 </Alloy>

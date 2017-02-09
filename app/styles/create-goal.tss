@@ -68,7 +68,10 @@
 	"class": "button1",
 	"height": "11%",
 	"width": "81.54%",
-	"font": {fontSize:'20',fontFamily:'',fontStyle:'',fontWeight:''}
+	"font": {fontSize:'20',fontFamily:'',fontStyle:'',fontWeight:''},
+	"backgroundColor": "#f7941d",
+	"borderWidth": "0",
+	"color": "#ffffff",
 },
 "#Label_1": {
 	"height": "6.18%",
@@ -100,5 +103,5 @@
 	"left": "10%",
 	"top": "17.43%",
 	"height": "10%",
-	"width": "50%",
+	"width": "50%"
 }

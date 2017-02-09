@@ -6,119 +6,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 This is your global styles file. Selectors and rules you define
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -134,119 +22,7 @@ here will be applied throughout your app. However, these rules
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 have the lowest priority of any style settings.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -262,119 +38,7 @@ For more information, see the "Style Priorities" section of
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 http://docs.appcelerator.com/platform/latest/#!/guide/Alloy_Styles_and_Themes
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -390,119 +54,7 @@ For example, the following would apply to all labels, windows,
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 and text fields (depending on platform) in your app unless you
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -518,119 +70,7 @@ overrode the settings with other TSS, XML, or JS settings:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 'Label[platform=android,windows]': {
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -646,119 +86,7 @@ overrode the settings with other TSS, XML, or JS settings:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -774,62 +102,6 @@ overrode the settings with other TSS, XML, or JS settings:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	backgroundColor: '#fff' // white background instead of default transparent or black
 
 
@@ -838,119 +110,7 @@ overrode the settings with other TSS, XML, or JS settings:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -966,62 +126,6 @@ overrode the settings with other TSS, XML, or JS settings:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	height: Ti.UI.SIZE
 
 
@@ -1030,119 +134,7 @@ overrode the settings with other TSS, XML, or JS settings:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1163,12 +155,12 @@ overrode the settings with other TSS, XML, or JS settings:
 	"left": "4.93%",
 	"top": "17.03%",
 	"width": "90.00%",
-	"borderRadius": "20",
+	"borderRadius": "10"
 },
 "#Button_1": {
 	"title": "Button",
-	"left": "4.80%",
-	"top": "6.83%",
+	"left": "64%",
+	"top": "81%",
 	"backgroundColor": "#ffffff",
 	"borderRadius": "10",
 	"color": "#193341",
@@ -1176,6 +168,8 @@ overrode the settings with other TSS, XML, or JS settings:
 	"height": "8%",
 	"layout": "absolute",
 	"width": "43%",
+	"borderColor": "#193341",
+	"borderWidth": "2"
 },
 "#Label_1": {
 	"text": "Label",
@@ -1218,17 +212,17 @@ overrode the settings with other TSS, XML, or JS settings:
 	"height": "8%",
 	"left": "10%",
 	"selectedColor": "#193341",
-	"width": "43%",
+	"width": "80%",
 	"font": {fontSize:'20',fontFamily:'sans-serif',fontStyle:'normal',fontWeight:'bold'},
 	"backgroundColor": "#ffffff",
 	"borderColor": "#193341",
 	"borderRadius": "10",
-	"borderWidth": "3",
+	"borderWidth": "2",
 	"color": "#193341"
 },
 ".button-half1": {
 	"height": "10.02%",
-	"width": "40%",
+	"width": "39%",
 	"backgroundColor": "#f7941d",
 	"borderRadius": "10",
 	"color": "#ffffff"
@@ -1239,24 +233,32 @@ overrode the settings with other TSS, XML, or JS settings:
 	"height": "33.33%",
 	"left": "4.80%",
 	"top": "64.50%",
-	"width": "89.87%",
+	"width": "89.87%"
 },
 "#ImageView_1": {
 	"height": "17%",
 	"left": "0.00%",
 	"top": "0.00%",
-	"width": "100%",
+	"width": "100%"
 },
 "#Window_1": {
-	"backgroundColor": "#ecf0f0",
+	"backgroundColor": "#ecf0f0"
 },
 "#ImageView_2": {
 	"height": "23%",
 	"left": "0.00%",
 	"top": "0%",
-	"width": "100%",
+	"width": "100%"
 },
 "#Button_2": {
 	"left": "51.73%",
 	"top": "6.83%",
+	"backgroundColor": "#ffffff",
+	"borderColor": "#193341",
+	"borderRadius": "10",
+	"borderWidth": "2",
+	"color": "#193341",
+	"font": {fontSize:'20',fontFamily:'',fontStyle:'',fontWeight:'bold'},
+	"height": "8%",
+	"width": "43%"
 }

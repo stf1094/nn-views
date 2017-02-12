@@ -6,7 +6,23 @@
 
 
 
+
+
+
+
+
+
+
+
 This is your global styles file. Selectors and rules you define
+
+
+
+
+
+
+
+
 
 
 
@@ -22,7 +38,23 @@ here will be applied throughout your app. However, these rules
 
 
 
+
+
+
+
+
+
+
+
 have the lowest priority of any style settings.
+
+
+
+
+
+
+
+
 
 
 
@@ -38,7 +70,23 @@ For more information, see the "Style Priorities" section of
 
 
 
+
+
+
+
+
+
+
+
 http://docs.appcelerator.com/platform/latest/#!/guide/Alloy_Styles_and_Themes
+
+
+
+
+
+
+
+
 
 
 
@@ -54,7 +102,23 @@ For example, the following would apply to all labels, windows,
 
 
 
+
+
+
+
+
+
+
+
 and text fields (depending on platform) in your app unless you
+
+
+
+
+
+
+
+
 
 
 
@@ -70,7 +134,23 @@ overrode the settings with other TSS, XML, or JS settings:
 
 
 
+
+
+
+
+
+
+
+
 'Label[platform=android,windows]': {
+
+
+
+
+
+
+
+
 
 
 
@@ -86,7 +166,23 @@ overrode the settings with other TSS, XML, or JS settings:
 
 
 
+
+
+
+
+
+
+
+
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -102,6 +198,14 @@ overrode the settings with other TSS, XML, or JS settings:
 
 
 
+
+
+
+
+
+
+
+
 	backgroundColor: '#fff' // white background instead of default transparent or black
 
 
@@ -110,7 +214,23 @@ overrode the settings with other TSS, XML, or JS settings:
 
 
 
+
+
+
+
+
+
+
+
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -126,6 +246,14 @@ overrode the settings with other TSS, XML, or JS settings:
 
 
 
+
+
+
+
+
+
+
+
 	height: Ti.UI.SIZE
 
 
@@ -134,7 +262,23 @@ overrode the settings with other TSS, XML, or JS settings:
 
 
 
+
+
+
+
+
+
+
+
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -155,29 +299,7 @@ overrode the settings with other TSS, XML, or JS settings:
 	"left": "4.93%",
 	"top": "17.03%",
 	"width": "90.00%",
-	"borderRadius": "10"
-},
-"#Button_1": {
-	"title": "Button",
-	"left": "64%",
-	"top": "81%",
-	"backgroundColor": "#ffffff",
 	"borderRadius": "10",
-	"color": "#193341",
-	"font": {fontSize:'20',fontFamily:'sans-serif',fontStyle:'normal',fontWeight:'bold'},
-	"height": "8%",
-	"layout": "absolute",
-	"width": "43%",
-	"borderColor": "#193341",
-	"borderWidth": "2"
-},
-"#Label_1": {
-	"text": "Label",
-	"left": "34%",
-	"top": "57%",
-	"height": "19.00%",
-	"width": "93.19%",
-	"font": {fontSize:'30',fontFamily:'san-serif',fontStyle:'normal',fontWeight:'normal'}
 },
 ".header[platform=ios]": {
 	"left": "10%",
@@ -188,12 +310,6 @@ overrode the settings with other TSS, XML, or JS settings:
 	"left": "10%",
 	"top": "16.5%",
 	"color": "black"
-},
-".button1": {
-	"left": "9.78%",
-	"width": "80%",
-	"height": "12%",
-	"backgroundColor": "#f7941d"
 },
 ".topCircle": {
 	"left": "40%",
@@ -208,6 +324,14 @@ overrode the settings with other TSS, XML, or JS settings:
 	"height": "65%",
 	"width": "90%"
 },
+".button1": {
+	"left": "9.78%",
+	"width": "80%",
+	"height": "12%",
+	"backgroundColor": "#f7941d",
+	"borderRadius": "10",
+	"color": "white"
+},
 ".button2": {
 	"height": "8%",
 	"left": "10%",
@@ -220,45 +344,68 @@ overrode the settings with other TSS, XML, or JS settings:
 	"borderWidth": "2",
 	"color": "#193341"
 },
+".button3": {
+	"height": "10%",
+	"width": "80%",
+	"backgroundColor": "#193341",
+	"borderRadius": "10",
+	"color": "white"
+},
 ".button-half1": {
-	"height": "10.02%",
+	"height": "10%",
 	"width": "39%",
 	"backgroundColor": "#f7941d",
 	"borderRadius": "10",
 	"color": "#ffffff"
 },
-"#View_2": {
+".button-half2": {
+	"height": "10%",
+	"width": "39%",
 	"backgroundColor": "#ffffff",
 	"borderRadius": "10",
-	"height": "33.33%",
-	"left": "4.80%",
-	"top": "64.50%",
-	"width": "89.87%"
+	"color": "#193341",
+	"borderColor": "#193341"
 },
-"#ImageView_1": {
-	"height": "17%",
-	"left": "0.00%",
-	"top": "0.00%",
-	"width": "100%"
+".button-half2-full": {
+	"height": "8%",
+	"width": "44%",
+	"backgroundColor": "#ffffff",
+	"borderRadius": "10",
+	"color": "#193341",
+	"borderColor": "#193341"
 },
-"#Window_1": {
-	"backgroundColor": "#ecf0f0"
+".textfield-large": {
+	"font": {fontSize:'40',fontFamily:'',fontStyle:'',fontWeight:'normal'},
+	"textAlign": Ti.UI.TEXT_ALIGNMENT_LEFT,
+	"width": "80%",
+	"top": "10%"
+},
+".textfield-large[platform=ios formFactor=tablet]": {
+	"font": {fontSize:'60',fontFamily:'',fontStyle:'',fontWeight:'normal'},
+	"textAlign": Ti.UI.TEXT_ALIGNMENT_LEFT,
+	"width": "80%"
+},
+".textfield": {
+	"font": {fontSize:'Ti.UI.SIZE',fontFamily:'',fontStyle:'',fontWeight:'normal'},
+	"textAlign": Ti.UI.TEXT_ALIGNMENT_LEFT,
+	"width": "80%"
+},
+".textfield[platform=ios formFactor=tablet]": {
+	"font": {fontSize:'20',fontFamily:'',fontStyle:'',fontWeight:'normal'},
+	"textAlign": Ti.UI.TEXT_ALIGNMENT_LEFT,
+	"width": "80%"
+},
+".textfield-full": {
+	"font": {fontSize:'Ti.UI.SIZE',fontFamily:'',fontStyle:'',fontWeight:'normal'},
+	"textAlign": Ti.UI.TEXT_ALIGNMENT_LEFT,
+},
+".textfield-full[platform=ios formFactor=tablet]": {
+	"font": {fontSize:'20',fontFamily:'',fontStyle:'',fontWeight:'normal'},
+	"textAlign": Ti.UI.TEXT_ALIGNMENT_LEFT,
+},
+"#View_2": {
 },
 "#ImageView_2": {
-	"height": "23%",
-	"left": "0.00%",
-	"top": "0%",
-	"width": "100%"
 },
-"#Button_2": {
-	"left": "51.73%",
-	"top": "6.83%",
-	"backgroundColor": "#ffffff",
-	"borderColor": "#193341",
-	"borderRadius": "10",
-	"borderWidth": "2",
-	"color": "#193341",
-	"font": {fontSize:'20',fontFamily:'',fontStyle:'',fontWeight:'bold'},
-	"height": "8%",
-	"width": "43%"
+"#ImageView_1": {
 }

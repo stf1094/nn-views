@@ -1,5 +1,5 @@
 <Alloy>
-    <Window id="Window_1">Tasks
+    <Window id="Window_1" title="Tasks">
         <View id="View_1">
             <Label id="Label_1">Project Name</Label>/&amp;amp;gt;
         </View>

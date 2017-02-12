@@ -1,20 +1,6 @@
-".container": {
-},
-"#Window_1": {
-	"title": "Window"
-},
-".cover": {
-	"left": "0.00%",
-	"top": "0.00%",
-	"image": "/iphone/ui-hotlist-cover.png",
-	"height": "23.25%",
-	"width": "100%"
-},
-"#scrollView": {
-	"height": "40.00%",
-	"left": "0.00%",
-	"top": "21.00%",
-	"width": "100.00%"
+
+".container" : {
+  
 },
 "#ImageView_1": {
 	"height": "125px",
@@ -112,17 +98,3 @@
 	"top": "25%",
 	"width": "200px"
 },
-"#scrollableView": {
-	"height": "50%",
-	"left": "0.00%",
-	"top": "40.00%",
-	"width": "100.00%"
-},
-"#view3": {
-	"height": "160.13%",
-	"left": "0.00%",
-	"top": "0.00%",
-	"width": "100.00%"
-},
-"#ListItem_1": {
-}

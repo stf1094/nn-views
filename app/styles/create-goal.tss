@@ -62,9 +62,9 @@
 	"height": "11%",
 	"width": "45%"
 },
-"#Button_1": {
-	"left": "9.16%",
-	"top": "81.83%",
+"#Button": {
+	"left": "51.70%",
+	"top": "83.81%",
 	"class": "button1",
 	"height": "11%",
 	"width": "81.54%",
